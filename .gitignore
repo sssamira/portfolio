@@ -20,3 +20,48 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Vite
+.vite/
+
+# Testing
+cypress/screenshots/
+cypress/videos/
